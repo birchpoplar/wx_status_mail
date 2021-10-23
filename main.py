@@ -1,6 +1,7 @@
 import smtplib      # To send email notification
 import requests     # To get image from internet
 import shutil       # To save image locally
+import os
 from datetime import datetime     # For date/time data
 
 from email.mime.multipart import MIMEMultipart
@@ -33,8 +34,10 @@ def addImageToMsg (filename, image_id, msg):
     image.add_header('Content-ID', image_id)
     msg.attach(image)
 
+os.chdir('~/wx_status_mail')
+
 # Source access and from/to details from dedicated file
-loginDetails = open('~/wx_status_mail/access.txt')
+loginDetails = open('access.txt')
 username = loginDetails.readline()
 password = loginDetails.readline()
 from_addr = loginDetails.readline().rstrip()
