@@ -9,4 +9,4 @@ Sends email with embedded images following user-specified headings. Images downl
   - From Email Address
   - To Email Address
   
-**2. images.txt** - lists the images by: title for email, full URL - comma as separator
+**2. image_urls.txt** - lists the images by: title for email, full URL - comma as separator

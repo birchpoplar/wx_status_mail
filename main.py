@@ -56,7 +56,7 @@ msg['To'] = to_addr
 msg_text = '<h2>Weather Update : ' + now.strftime("%B %d, %Y %H:%M:%S") + '</h2> <br>'
 
 # Open the images list dedicated file
-sites = open('images.txt')
+sites = open('image_urls.txt')
 
 # Set initial image ID
 imageId = 1

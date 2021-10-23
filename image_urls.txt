@@ -1,0 +1,7 @@
+Forecast-Map, https://www.wpc.ncep.noaa.gov//noaa/noaa.gif
+12-Hour, https://www.wpc.ncep.noaa.gov/basicwx/92fndfd.gif
+24-Hour, https://www.wpc.ncep.noaa.gov/basicwx/94fndfd.gif
+OSR-Pressure, http://sparta/weewx/daybarometer.png
+OSR-Temperature, http://sparta/weewx/daytempdew.png
+OSR-Humidity, http://sparta/weewx/dayhum.png
+OSR-Rainfall, http://sparta/weewx/dayrain.png
