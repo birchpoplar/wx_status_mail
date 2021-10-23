@@ -34,7 +34,8 @@ def addImageToMsg (filename, image_id, msg):
     image.add_header('Content-ID', image_id)
     msg.attach(image)
 
-os.chdir('~/wx_status_mail')
+# Set the working directory for operation (so can load the two config files)
+os.chdir('/home/johnnie/wx_status_mail')
 
 # Source access and from/to details from dedicated file
 loginDetails = open('access.txt')
@@ -59,7 +60,7 @@ msg['To'] = to_addr
 msg_text = '<h2>Weather Update : ' + now.strftime("%B %d, %Y %H:%M:%S") + '</h2> <br>'
 
 # Open the images list dedicated file
-sites = open('~/wx_status_mail/image_urls.txt')
+sites = open('image_urls.txt')
 
 # Set initial image ID
 imageId = 1

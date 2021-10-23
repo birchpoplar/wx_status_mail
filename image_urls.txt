@@ -1,4 +1,5 @@
 Forecast-Map, https://www.wpc.ncep.noaa.gov//noaa/noaa.gif
+Satellite, https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/ne/GEOCOLOR/600x600.jpg
 12-Hour, https://www.wpc.ncep.noaa.gov/basicwx/92fndfd.gif
 24-Hour, https://www.wpc.ncep.noaa.gov/basicwx/94fndfd.gif
 OSR-Pressure, http://sparta/weewx/daybarometer.png
